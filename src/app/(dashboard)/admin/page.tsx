@@ -1,6 +1,7 @@
 import React from 'react';
 import UserCard from "@/components/UserCard";
 import CountChart from "@/components/CountChart";
+import AttendanceChart from "@/components/AttendanceChart";
 
 const AdminPage = () => {
     return (
@@ -20,7 +21,7 @@ const AdminPage = () => {
                     </div>
 
                     <div className="w-full lg:w-2/3 h-[450px]">
-
+                        <AttendanceChart/>
                     </div>
                 </div>
 
