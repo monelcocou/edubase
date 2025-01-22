@@ -26,7 +26,7 @@ const AdminPage = () => {
                 </div>
 
 
-                <div>
+                <div className="w-full h-[500]">
                     Bottom
                 </div>
             </div>
