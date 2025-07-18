@@ -28,7 +28,7 @@ const columns = [
     {
         header:"Teacher",
         accessor:"teacher",
-        className: "hidden lg:table-cell"
+        className: "hidden md:table-cell"
     },
     {
         header:"Date",
